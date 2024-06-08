@@ -69,6 +69,10 @@ On a side note, the code is very well written and documented and it should be ve
 
 Altough the code is small and not badly optimized, scfg should not be used with large data files because it wasn't built with that idea in mind.  
 
+# Additional Information
+
+By default, scfg logs to the standard input. undefine the `SCFG_DEBUG` macro to disable all logging.  
+
 # Licensing
 
 This project uses the MIT License. For more information, read the LICENSE file.

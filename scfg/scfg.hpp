@@ -324,6 +324,7 @@ void scfg::Config::Load(std::string_view fileName) {
 #ifdef SCFG_DEBUG
 		std::println("[SCFG] Found entry: [{}] {}: {} -> {}", currentGroup, currentEntry, currentValue, currentType);
 #endif
+		// Make sure the type string is 3 characters long
 		assert(currentType.size() == 3);
 
 		switch (typeToIndex[currentType.data()]) {

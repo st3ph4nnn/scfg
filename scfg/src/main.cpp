@@ -14,6 +14,9 @@ int main() {
 	auto& e4 = g1.AddEntry<float>("e4", 3.141f);
 	auto& e5 = g2.AddEntry<std::string>("e5", "69420");
 
+
+	int* data = e1.GetPtr<int32_t>();
+
 	config.Save("test");
 	config.Load("test");
 }

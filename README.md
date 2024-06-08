@@ -50,7 +50,7 @@ Following up, each entry contains three important values:
 - The value that is considered after the name and until the '-' character
 - The type that is considered after the value and until the end of the line
 
-As a convention, every type of data are localized into 3 character strings.  
+As a convention, every type of data is localized into 3 character strings.  
 For example, a 32-bit integer is marked as i32 (i stands for integer, and 32 stands for the bit amount)
 
 Currently these are the only supported types:  

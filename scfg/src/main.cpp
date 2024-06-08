@@ -1,5 +1,6 @@
+#define SCFG_TYPES int32_t, int64_t, uint32_t, uint64_t, float_t, double_t, std::string
+
 #include "../scfg.hpp"
-#include <print>
 
 int main() {
 	scfg::Config config;

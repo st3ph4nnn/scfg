@@ -39,7 +39,6 @@ SOFTWARE.
 #include <cassert>
 
 #define SCFG_TYPES int32_t, int64_t, uint32_t, uint64_t, float_t, double_t, std::string
-#define SCFG_DEBUG 1
 
 namespace scfg {
 

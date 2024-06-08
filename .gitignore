@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/scfg/src/build/output/scfg.exe
+/scfg/src/build/output/intermediates/vc143.idb
+/scfg/src/build/output/intermediates/scfg.tlog/link.read.1.tlog

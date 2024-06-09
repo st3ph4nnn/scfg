@@ -41,7 +41,7 @@ firstEntry: 69420 -> i32
 secondEntry: 6000000 -> u64
 thirdEntry: 369.213 -> f64
 
-[secondGoup]
+[secondGroup]
 fourthEntry: 69420 -> str
 ```
 As you can see, group declarations are marked in between brackets on one line.  

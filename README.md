@@ -14,8 +14,8 @@ auto& firstGroup = config.AddGroup("firstGroup");
 auto& secondGroup = config.AddGroup("secondGoup");
 
 // AddEntry returns a pointer to the entry created
-auto& firstEntry = g1.AddEntry<int32_t>("firstEntry", 69420);
-auto& secondEntry = g1.AddEntry<uint64_t>("secondEntry", 6000000);
+auto& firstEntry = firstGroup.AddEntry<int32_t>("firstEntry", 69420);
+auto& secondEntry = secondGroup.AddEntry<uint64_t>("secondEntry", 6000000);
 
 // Additionally you can get entry pointers like this:
 firstEntry = config["firstGroup"]["firstEntry"];
